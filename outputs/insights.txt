@@ -1,0 +1,81 @@
+INSIGHTS - ANÁLISE EXPLORATÓRIA DE DADOS DE VENDAS
+
+1. QUALIDADE DOS DADOS
+
+O dataset apresenta boa estrutura final após o processo de limpeza:
+- 196 registos válidos
+- Sem valores nulos
+- Tipos de dados corretamente formatados
+
+No entanto, foi identificada uma inconsistência importante:
+- A validação "Units Sold × Unit Price = Total Sales" retornou FALSE
+- Isto indica divergências entre a receita calculada e a receita original em algumas linhas
+- Possível causa: erro de origem dos dados ou múltiplas fontes inconsistentes
+
+
+2. DESEMPENHO POR REGIÃO
+
+A região North é claramente dominante em receita:
+- North: 1,943,723.93
+- West: 710,467.86
+- East: 632,832.38
+- South: 601,095.04
+
+Insight:
+A região North concentra a maior parte das vendas, representando mais de 2x a receita da segunda região mais forte (West).
+
+
+3. PRODUTOS MAIS VENDIDOS (VOLUME)
+
+Em termos de unidades vendidas:
+- Tablet: 1829
+- Laptop: 1501
+- Phone: 1291
+- Monitor: 1086
+- Desktop: 1003
+
+Insight:
+Tablet é o produto mais vendido em volume, indicando forte procura.
+
+
+4. PRODUTOS POR RECEITA
+
+Em termos de receita gerada:
+- Tablet: 980,150.64
+- Laptop: 830,650.25
+- Monitor: 810,376.38
+- Phone: 703,344.60
+- Desktop: 563,597.34
+
+Insight:
+Tablet também lidera em receita, mostrando que combina alto volume com bom valor médio.
+
+
+5. DESEMPENHO TEMPORAL
+
+Receita por mês:
+- January: 883,314.84
+- February: 1,182,490.10
+- March: 921,591.87
+- April: 900,722.40
+
+Insight:
+Fevereiro foi o mês com maior receita, indicando possível sazonalidade ou campanha de vendas nesse período.
+
+
+6. TICKET MÉDIO
+
+O ticket médio de vendas é:
+- 19,837.34
+
+Insight:
+O valor médio por transação é elevado, indicando que se trata de produtos de ticket médio-alto.
+
+
+7. CONCLUSÃO GERAL
+
+- O produto Tablet é o principal driver de vendas tanto em volume como em receita
+- A região North domina claramente o desempenho de vendas
+- Existe inconsistência entre receita calculada e receita fornecida nos dados
+- Fevereiro foi o mês mais forte em termos de receita
+- O dataset representa um cenário de vendas consistente, mas com problemas de integridade em algumas métricas financeiras
