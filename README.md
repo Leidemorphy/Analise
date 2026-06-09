@@ -1,4 +1,4 @@
-# 📊 Data Cleaning & Transformation Project (Python + Pandas)
+# 📊 Data Cleaning & Transformation Project (Python + Pandas + MatplotLib)
 
 ## 📌 Descrição
 
